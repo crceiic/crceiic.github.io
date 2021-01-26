@@ -1,0 +1,34 @@
+.slider-container {
+    margin-top: 125px;
+}
+
+.slider-container h5 {
+    color: darkblue;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.info-container {
+    margin-top: 10%;
+}
+
+.info-container h5 {
+    color:darkblue;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.carousel-item img {
+    height: calc(100vh - 200px)!important;
+}
+
+.info-icon {
+    color: red;
+}
+
+.info-container p {
+    color: black;
+    font-weight: 700;
+}

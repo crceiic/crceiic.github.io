@@ -1,0 +1,171 @@
+.events-container {
+    margin-top: 125px;
+}
+
+.events-container h3{
+    color: darkblue;
+    font-weight: bold;
+    text-align: center;
+}
+
+.event {
+    box-shadow: 0px 8px 16px 0px darkblue;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.event-header {
+    background-color: darkblue;
+    padding: 2%;
+    color: white;
+    border-radius: 5px;
+}
+
+.event-header h2 {
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+@media (max-width: 600px) {
+    .event-header {
+        padding: 4%;
+    }
+    .event-header h2 {
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    .event-header p{
+        font-size: 0.9rem;
+    }
+}
+
+.event-icon {
+    color: #fff;
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+
+.event-icon:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+.event-footer {
+    padding: 2%;
+    margin-top: 2%;
+}
+
+.card-img-top {
+    height: 260px;
+    transition: 0.3s;
+}
+
+.youtube-video-place {
+    height: 260px;
+}
+
+.event-footer img:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed; 
+    z-index: 100000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9);
+}
+  
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    height: 500px;
+}
+  
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+  
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+  
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+  
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+  
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+  
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+}
+
+/* Accordion */
+
+#accordion {
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#accordion .card-header {
+    background-color: white;
+    text-align: center;
+}
+
+#accordion .card-header a {
+    color: black;
+}
+
+#accordion .card-header a:hover {
+    color: darkblue;
+    text-decoration: none;
+}
+
+.event-name {
+    margin-bottom: 5px;
+}
+
+.event-name:hover {
+    color: red;
+    cursor: pointer;
+}
